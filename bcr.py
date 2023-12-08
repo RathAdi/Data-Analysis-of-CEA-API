@@ -7,9 +7,9 @@ df = source[["Region", "Month","Total"]]
 
 hold = df.pivot(index = "Month", columns= "Region", values = "Total")
 
-print(hold)
+hold.drop(["Oct-2023"])
 
 bcr.bar_chart_race(
-    df = df,
+    df = hold,
     filename = "trial.mp4",
 )
