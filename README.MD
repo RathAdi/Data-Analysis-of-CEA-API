@@ -6,4 +6,4 @@ The bar_chart_race module requires FFMpeg to be installed in your computer's pat
 Detailed instructions can be found [here](https://www.wikihow.com/Install-FFmpeg-on-Windows).
 
 The Python bindings for FFmpeg are installed through:
-`pip install python-ffmpeg`
+```pip install python-ffmpeg```
