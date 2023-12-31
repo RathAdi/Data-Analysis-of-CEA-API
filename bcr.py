@@ -28,5 +28,6 @@ for index,row in sorted_source.iterrows():
 
 bcr.bar_chart_race(
     df = df,
-    filename = "trial.mp4"
+    filename = "trial.mp4",
+    title = "Total Capacity by Regional Grid"
 )
