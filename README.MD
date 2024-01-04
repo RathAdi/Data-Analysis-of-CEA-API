@@ -1,5 +1,6 @@
 # Data Analysis of CEA API
 A visualization of the data provided by the Central Electricity Authority of India on their [website](https://cea.nic.in/api-for-central-electricity-authority-data/?lang=en).
+Currently, the project is in development.
 
 ## Prerequisites
 ### FFmpeg Installation
